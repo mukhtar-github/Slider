@@ -5,7 +5,7 @@ import data from './data';
 
 function App() {
   const [people, setPeople] = useState(data);
-  const [index, setIndex] = React.useState(0);
+  const [index, setIndex] = useState(0);
 
   const nextSlide = () => {
     setIndex((oldIndex) => {
