@@ -67,7 +67,7 @@ const prevSlide = () => {
     return () => {
       clearInterval(slider)
     }
-  }, [index])
+  }, [index,people.length])
 
   return (
     <section className='section'>
